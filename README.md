@@ -13,6 +13,7 @@ This small amount of CSS styling is simply to add boxes to the table at a specif
 This sets up the centered column names and widths, with "US Population" spanning the two total columns of "Year" and "Population." The table's body id is named "popTable" for reference by JavaScript later.
 ![image](https://github.com/user-attachments/assets/f0ac1c13-21af-4da1-9d02-14b622026c81)
 
+## 2) JavaScript set-up for parsing data and adding to HTML table
 The beginning function simply grabs the data to be used.
 The second function is where this data gets parsed and input into their respective columns and added to the table described above. This function is wrapped in an IIFE to load this population data as soon as possible (whenever the site is loaded :) ).
 ![image](https://github.com/user-attachments/assets/f42dbeb6-0655-4784-b88b-81b1c5a2c7cf)
